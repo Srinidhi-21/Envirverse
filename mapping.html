@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>INDIA MAP</title>
+    
+    <style>
+.screen {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  float: right;
+  top: auto;
+}
+button{
+    color: #EEFBFB;
+    padding: 10px 25px;
+    background-color:#4DA8DA;
+    border: 1px solid #4DA8DA;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+.first-txt {
+            position: absolute;
+            top: 200px;
+            left: 400px;
+}
+.second-txt {
+            position: absolute;
+            bottom: 300px;
+            left: 280px;
+}
+.third-txt {
+            position: absolute;
+            top: 320px;
+            left: 500px;
+}
+.fourth-txt {
+            position: absolute;
+            bottom: 90px;
+            left: 410px;
+}
+</style>
+</head>
+<body bgcolor="#fff">
+<font face="Gilbert Bold" color="green" size="6">
+<marquee direction="left" behavior="alternate"><b>INDIA MAP</b>
+</marquee>
+</font>
+<hr size="6" color="#12232E">
+<map name="pagemap">
+<area href ="tabledelhi.html" shape="rect" coords="194,151,247,219" href="delhi.html" title = "Delhi">
+<area href ="tablekolkatta.html" shape="rect" coords="291,268,384,337" href="kolkata.html" title = "Kolkatta">
+<area href ="twotablemumbai.html" shape="rect" coords="100,337,197,384" href="mumbai.html" title = "Mumbai">
+<area href ="tablechennai.html" shape="rect" coords="236,543,344,577" href="chennai.html" title="Chennai">
+<div class="screen" align="justify">This is the Main data page of our App, Here you can see that major cities are highlighted here, go on and click any of them, you can compare the impact of covid on our dear environment with a visual treat, and wait! Saw that button on the top? You can also access the covid vaccine data of your city and even book you jab from here! Now you can compare data with the visual surprise! Go on!</div>
+<a href="https://www.mygov.in/covid-19#statewise-vaccine-data"><button type="button"><b>Vaccine Information</b></button></a>
+<img src="images/vaccine.gif" width="200" height="300">
+</map>
+<img src="images/india.png" usemap="#pagemap">
+<h3 class="first-txt" style="color: #000000;">DELHI</h3>
+<h3 class="second-txt" style="color:#000000;">MUMBAI</h3>
+<h3 class="third-txt" style="color:#000000;">KOLKATTA</h3>
+<h3 class="fourth-txt" style="color:#000000;">CHENNAI</h3>
+<font color="#12232E" size="5">
+<a href="index.html"><button type="button"><b>Back to Home Page</b></button></a>
+<p><b>Hints -</b><i> Click on the Name of the Cities in the map to know its description</i></p>
+</font>
+</body>
+</html>
+
+
+    
